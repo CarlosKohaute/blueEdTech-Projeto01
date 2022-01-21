@@ -1,7 +1,7 @@
 console.clear();
 const prompt = require('prompt-sync')();
 console.log(
-    "Olá guerreiro, seja bem vindo ao nosso reino, estamos passando\npor uma severa batalha contra ordas vindas do submundo, nossos\nmagos fizeram um encanto para lhe trazer de seu mundo para nos \najudar, à você foi designado o escudo como arma, escolha a melhor\nmaneira para que possa usar ele  em batalhas pois haveram outros\ntrês guerreiros para lhe ajudar, um é o heroi da lança, outro o\nda espada e por fim o do arco."); 
+    "Olá guerreiro, seja bem vindo ao nosso reino, estamos passando\npor uma severa batalha contra ordas vindas do submundo, nossos\nmagos fizeram um encanto para lhe trazer de seu mundo para nos \najudar, à você foi designado o escudo como arma, escolha a melhor\nmaneira para que possa usar ele  em batalhas pois haverão outros\ntrês guerreiros para lhe ajudar, um é o heroi da lança, outro o\nda espada e por fim o do arco."); 
 const nome = prompt("Para começarmos a sua jornada gostaria de saber qual é o seu nome? ");
     console.log("");
     console.log("Olá ", nome," vamos começar a sua jornada!");
@@ -62,7 +62,7 @@ const nome = prompt("Para começarmos a sua jornada gostaria de saber qual é o 
                         console.log("Parabéns, a sua missão foi quase que perfeita, continue desta\nforma!")
                         }else{};
                         if (cont == 5){
-                        console.log("Parabéns pelo seu desempenho, você ganhará um feldo para chamar\nde seu como premiação!")
+                        console.log("Parabéns pelo seu desempenho, você ganhará um feudo para chamar\nde seu como premiação!")
                         }else{};
                         
                         console.log('Você disse Sim', cont, 'vezes!') 
